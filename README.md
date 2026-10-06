@@ -103,6 +103,7 @@ int main() {
     return 0;
 }
 Output Unguided 1 :
+![Screenshot Output Unguided 1](assets/Output-Unguided1.png)
 Output 1 (Input Matriks dan Hasil Operasi Penjumlahan & Pengurangan)
 Output 2 (Hasil Operasi Perkalian Matriks)
 Program di atas menggunakan nested loop (perulangan bersarang) untuk mengelola elemen baris dan kolom pada array 2 dimensi berukuran 3x3. Pada operasi penjumlahan dan pengurangan, elemen-elemen dihitung berdasarkan indeks posisi yang sama (C 
@@ -153,6 +154,7 @@ int main() {
 }
 
 Output Unguided 2 :
+![Screenshot Output Unguided 2](assets/Output-Unguided2.png)
 Output 1 (Hasil Eksekusi Nilai Awal dan Rotasi Pointer)
 Output 2 (Hasil Eksekusi Rotasi Reference)
 Fungsi tukarPointer menerima parameter berupa alamat memori dari masing-masing variabel (&x, &y, &z), lalu memanipulasi nilainya menggunakan operator dereference (*). Fungsi tukarReference menerima variabel secara langsung sebagai alias memori (int &a, int &b, int &c), sehingga pertukaran nilai di dalam blok fungsi langsung memengaruhi variabel asli pada fungsi main tanpa perlu melakukan dereference eksplisit.
@@ -235,6 +237,7 @@ int main() {
 }
 
 Output Unguided 3 :
+![Screenshot Output Unguided 3](assets/Output-Unguided3.png)
 Output 1 (Menampilkan Isi Array dan Nilai Ekstremum)
 Output 2 (Perhitungan Rata-rata Array dan Keluar Program)
 Program ini memanfaatkan modularitas kode dengan memisahkan logika pencarian nilai ekstrem dan perhitungan statistik:

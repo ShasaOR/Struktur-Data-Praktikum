@@ -423,7 +423,7 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 1_1]()
+![Screenshot Output Unguided 1](https://github.com/ShasaOR/Struktur-Data-Praktikum/blob/main/modul-4/assets/output1.png)
 
 Di soal pertama, ADT-nya dibuat dari nol dengan tipe data `int` biar lebih sederhana dari versi mahasiswa di Guided. `createList` mengisi `First` dengan Nil, `alokasi` membuat node baru dengan nilai `x`, dan `dealokasi` membuang node sekaligus mengembalikan pointernya jadi Nil supaya tidak jadi pointer gantung. `printInfo` menelusuri list dari `First` dan mencetak tiap nilai dipisah spasi.
 
@@ -610,7 +610,7 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 2_1]()
+![Screenshot Output Unguided 2](https://github.com/ShasaOR/Struktur-Data-Praktikum/blob/main/modul-4/assets/output2.png)
 
 Di versi ini `Nil` didefinisikan sebagai `nullptr` (bukan `NULL`), dan `alokasi` mengecek dulu apakah `new` berhasil sebelum mengisi node. Semua fungsi dari soal 1 ikut ditulis lagi di `Singlylist.cpp` supaya file-nya utuh dan bisa langsung dikompilasi.
 

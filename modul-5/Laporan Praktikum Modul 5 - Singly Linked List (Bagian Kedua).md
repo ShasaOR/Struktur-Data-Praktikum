@@ -590,7 +590,8 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 1_1](output1.png)
+![Screenshot Output Unguided 1_1](https://github.com/ShasaOR/Struktur-Data-Praktikum/blob/main/modul-5/assets/output1.png
+)
 
 Soal pertama ini fondasi buat dua soal berikutnya, jadi ADT-nya dibuat dulu dengan tipe data `int`. `createList` mengosongkan list, `alokasi` membuat node baru (dan mengecek dulu `new`-nya berhasil), `dealokasi` membuang node sekaligus mengembalikan pointernya ke Nil, dan `printInfo` mencetak isi node dari `First` sampai ujung, dipisah spasi.
 
@@ -724,7 +725,8 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 2_1](output2.png)
+![Screenshot Output Unguided 2_1](https://github.com/ShasaOR/Struktur-Data-Praktikum/blob/main/modul-5/assets/output2.png
+)
 
 Soal kedua menambahkan satu fungsi baru, `findElm`, yang mengembalikan alamat node pertama yang `info`-nya sama dengan `x`. Cara kerjanya mirip pencarian di Guided: pointer `P` mulai dari `First`, lalu di tiap node dicek apakah `P->info == x`. Kalau cocok, alamat `P` langsung dikembalikan. Kalau `P` sudah mencapai Nil tanpa ketemu, fungsi mengembalikan Nil.
 
@@ -864,7 +866,7 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 3_1](output3.png)
+![Screenshot Output Unguided 3_1](https://github.com/ShasaOR/Struktur-Data-Praktikum/blob/main/modul-5/assets/output3.png)
 
 Soal ketiga meminta total dari semua nilai `info` di dalam list. Fungsi `totalInfo` dibuat dengan pola penelusuran yang sama seperti `nbList` di modul 4, bedanya bukan menghitung jumlah node (`count++`) tapi menambahkan nilai tiap node ke variabel `total`. Pointer `P` mulai dari `First`, nilainya ditambahkan ke `total`, lalu `P` pindah ke node berikutnya sampai ketemu Nil.
 

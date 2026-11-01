@@ -281,7 +281,7 @@ int main() {
 **Penjelasan:** Program memasukkan empat data kendaraan, menolak nomor polisi yang duplikat, mencari kendaraan berdasarkan nomor polisi, kemudian menghapus data yang dipilih dan menampilkan list setelah penghapusan.
 
 ### Output Guided 1 :
-![Screenshot Output Unguided 1]()
+![https://github.com/ShasaOR/Struktur-Data-Praktikum/blob/main/modul-6/assets/guided.png]()
 
 
 ## Unguided
@@ -520,7 +520,7 @@ int main() {
 **Penjelasan:** Program utama menerima empat input buku. Kode buku diperiksa terlebih dahulu agar tidak ada duplikasi. Setelah data dimasukkan, program menampilkan isi list, mencari buku berdasarkan kode yang dimasukkan, menghapus buku berdasarkan kode yang dipilih, lalu menampilkan kembali isi list setelah penghapusan.
 
 ### Output Unguided 1 :
-![Screenshot Output Unguided 1]()
+![https://github.com/ShasaOR/Struktur-Data-Praktikum/blob/main/modul-6/assets/unguided.png]()
 
 
 Contoh pengujian mengikuti data pada modul:

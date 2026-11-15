@@ -1,5 +1,5 @@
 # <h1 align="center">Laporan Praktikum Modul 2 - Array Tiga Dimensi, Pointer, dan Struktur Data</h1>
-<p align="center">Shasa Olivia Rose - 2311102xxx</p>
+<p align="center">Shasa Olivia Rose - 109082500207</p>
 
 ## Dasar Teori
 

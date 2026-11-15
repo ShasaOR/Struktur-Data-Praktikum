@@ -1,6 +1,10 @@
+<div align="center">
+
 # Laporan Praktikum Modul 7 - Stack
 
 Shasa Olivia Rose - 109082500207
+
+</div>
 
 ## Dasar Teori
 
@@ -321,7 +325,7 @@ int main() {
 
 ##### Output 1
 
-!\[Screenshot Output Unguided 1_1\]()
+![Screenshot Output Unguided 1](assets/output%201.png)
 
 Soal pertama meminta ADT stack dari array berisi bilangan bulat dengan kapasitas 20. Di `stack.h`, `infotype` didefinisikan sebagai `int`, lalu `struct Stack` berisi `info[20]` dan `Top`. Cara kerja Top sama seperti di Guided: 0 berarti kosong dan elemen ke-Top disimpan di indeks `Top - 1`.
 
@@ -445,7 +449,7 @@ int main() {
 
 ##### Output 2
 
-!\[Screenshot Output Unguided 2_1\]()
+![Screenshot Output Unguided 2](assets/output%202.png)
 
 Soal kedua menambah `pushAscending`, yaitu memasukkan data baru sambil menjaga isi stack tetap terurut, dengan angka terkecil di dasar dan terbesar di TOP. Itu sebabnya outputnya terbaca 9 8 4 3 3 2 kalau dilihat dari TOP.
 
@@ -575,7 +579,7 @@ int main() {
 
 ##### Output 3
 
-!\[Screenshot Output Unguided 3_1\]()
+![Screenshot Output Unguided 3](assets/output%203.png)
 
 Soal ketiga menambah `getInputStream`, yang membaca ketikan pengguna karakter demi karakter dan memasukkannya ke stack sampai Enter ditekan. Pembacaannya memakai `cin.get()` karena fungsi ini, berbeda dengan `cin >>`, ikut membaca karakter spasi dan Enter (`'\n'`). Loop berhenti ketika karakter yang terbaca `'\n'` atau `EOF` kalau input habis. Variabel `c` bertipe `int` supaya bisa dibandingkan dengan `EOF`.
 
